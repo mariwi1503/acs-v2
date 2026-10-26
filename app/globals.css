@@ -53,9 +53,9 @@ main section[id]{scroll-margin-top:94px}
 .main-nav>a:not(.nav-cta):hover{opacity:1}
 .nav-cta{display:inline-flex;gap:8px;align-items:center;background:#f45b13;padding:13px 18px;border-radius:2px}
 .menu-toggle{display:none;color:white;border:0;background:transparent}
-.hero{min-height:720px;color:white;position:relative;overflow:hidden;background:#10243d}
+.hero{min-height:max(720px,calc(100svh - 125px));color:white;position:relative;overflow:hidden;background:#10243d}
 .hero-plexus{position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none}
-.hero-content{min-height:720px;display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center;position:relative;z-index:1;padding-top:52px}
+.hero-content{min-height:max(720px,calc(100svh - 125px));display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center;position:relative;z-index:1;padding-top:52px}
 .eyebrow,.section-kicker{font:500 10px"DM Mono",monospace;letter-spacing:.14em;color:#f56a28}
 .hero .eyebrow{font-size:11px}
 .eyebrow{display:flex;align-items:center;gap:10px;margin-bottom:24px}
